@@ -1,0 +1,128 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    }
+
+    body{
+        font-family: 'Poppins', sans-serif;
+    }
+
+    div{
+        /* border:1px solid lightsalmon ;*/
+     }
+     
+     .categorias , .ofertas{
+        width: 367px;
+        padding: 10px;
+        border: 2px solid gray;
+        margin: 15px;
+        height: 464px;
+     }
+
+     .categorias__encabezado , .ofertas__encabezado{
+        display:flex;
+        flex-direction:row ;
+        height: 70px;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+     .categorias__encabezado > span:first-child , .ofertas__encabezado > span:first-child{
+        color: #223263;
+        font-size: 14px;
+        font-weight: bold;
+     }
+
+     .categorias__encabezado>span:last-child, .ofertas__encabezado > span:last-child{
+        color: #40bfff;
+        font-size: 14px;
+        font-weight: bold;
+     }
+
+    .categorias__contenido{
+        display:flex;
+        flex-direction:row;
+        justify-content:space-around;
+    }
+    
+
+     .categorias__contenido .categorias__item {
+        display:flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-around;
+        height:108px ;
+        width: 70px;
+     }
+
+     .categorias__contenido .categorias__item > div{
+         width: 70px;
+         height: 70px;
+         border: 1px solid #ebf0ff;
+         display: flex;
+         flex-direction: row;
+         justify-content:center ;
+         align-items: center;
+         border-radius: 50px;
+     }
+   
+     .categorias__contenido .categorias__item span{
+        font-weight:normal;
+        font-size: 10px;
+        color: #9098b1;
+     }
+
+
+     /*ofertas*/
+  
+     .ofertas{
+        height: 400px;
+     }
+
+     .ofertas__contenido  img{
+        width: 120px;
+     }
+
+
+
+     .ofertas__contenido .ofertas__item {
+        display:flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-around;
+        height:238px ;
+        width: 141px;
+         border: 1px solid #3f4046;
+
+         border-radius: 15px;
+         padding: 15px;
+     }
+
+     .ofertas__nombre{
+         font-size:12px;
+         font-weight: bold;
+         color: #223263;
+     }
+
+     .ofertas__precio{
+        color: #40bfff;
+        font-size: 14px;
+        font-weight: bold;
+         margin-top:25px ;
+         margin-bottom:12px ;
+     }
+
+     .ofertas__descuento > span:first-child{
+        color: #9098b1;
+        font-size: 10px;
+        font-weight: normal;
+        text-decoration: line-through;
+        margin-right: 15px;
+     }
+
+     .ofertas__descuento> span:last-child{
+        color: #fb7181;
+        font-size: 10px;
+        font-weight: bold;
+     }
