@@ -1,0 +1,18 @@
+.texto-azul {
+    color: blue;
+    font-size: 20px;
+}
+
+.texto-rojo {
+    color: red;
+    font-size: 20px;
+}
+
+.visible {
+    display: block;
+
+}
+
+.oculto {
+    display: none;
+}
