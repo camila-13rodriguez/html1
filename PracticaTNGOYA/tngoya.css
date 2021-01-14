@@ -1,0 +1,39 @@
+* {
+box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    font-family: 'Castoro', serif;
+}
+
+div{
+   /* border:1px solid lightsalmon ;*/
+}
+
+.wrapper{
+    width:992px;
+}
+
+.top_menu{
+    height:150px ;
+    background-image: url("./assets/img/cabezal2.jpg");
+    background-position: top left;
+    background-repeat: no-repeat;
+}
+ 
+.navbar{
+    padding:2px ;
+    /* height: 32px; */
+    background-color: rgb(24,62 ,105);
+}
+
+.publicidad{
+    height: 102px;
+}
+
+.navbar ul li{
+display: inline-block;
+color: white;
+width: 80px; 
+}

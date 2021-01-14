@@ -1,0 +1,56 @@
+body {
+   /* padding: 20px; */
+}
+/* 
+.caja-1 {
+    background-image: url(paisaje3.jpg);
+    background-position: left top;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100vw;
+    height: 100vh;
+    opacity: 0.1;
+}
+ */
+.caja-2 {
+    width: 200px;
+    height: 200px;
+    padding: 5px;
+    border: 2px solid grey;
+    border-radius: 10px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+}
+ 
+
+
+
+.caja-roja {
+    background-color: red;
+}
+
+.caja-verde {
+    background-color: green;
+}
+
+.caja-amarilla {
+    background-color: yellow ;
+}
+
+.girado {
+    transform: rotate(20deg);
+    transition: 2s;
+}
+
+.transicion {
+    transition: 2s;
+}
+
+.imagen1 {
+    width: 100%;
+    height: 100%;
+
+}

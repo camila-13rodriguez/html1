@@ -1,0 +1,50 @@
+div {
+    margin-bottom:20px ;
+    border:crimson solid 1px;
+  }
+
+  .texto2{
+    display:inline;
+    border: 1px solid black;
+  }
+
+  .caja1 , .caja2,.caja3,.caja4,.caja5{
+    display:inline-block ;
+    width: 49vw ;
+    height:100px;
+    box-sizing: border-box;
+  }
+   .caja1{
+     position: static;
+   }
+
+   .caja2{
+      position: relative;
+    
+      right:20px ;
+   }
+   .caja3{
+    position: fixed;
+    background-color: brown;
+    bottom:0px;
+    left:0px ;
+    width:100vw ;
+    height:100px ;
+    color: white;
+    text-align: center;
+    padding-top:15px ;
+    font-weight: bold;
+    border: none;
+   } 
+   .caja3__img{
+     border: none;
+     position:absolute;
+     right:20px ;
+   }
+
+    .caja4{
+
+    }
+   .caja5{
+
+     }

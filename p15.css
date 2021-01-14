@@ -1,0 +1,35 @@
+.caja1 {
+    width:100% ;
+    height:100px;
+    border:crimson solid 1px;
+    display:inline-block;
+    margin-top: 20px; 
+}
+.caja2{
+    width:100% ;
+    height:150px;
+    border:crimson solid 1px;
+    display:inline-block ;
+    margin-top:20px ;
+}
+.caja3{
+    width:30% ;
+    height:50px;
+    border:crimson solid 1px;
+    display:inline-block;
+    margin-right:20px;
+    margin-top: 20px
+}
+.caja4 {
+    width:30% ;
+    height:50px;
+    border:crimson solid 1px;
+    display:inline-block;
+    margin-right:20px;  
+}
+.caja5{
+    width:30% ;
+    height:50px;
+    border:crimson solid 1px;
+    display:inline-block  
+}

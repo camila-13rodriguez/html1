@@ -1,0 +1,46 @@
+*{
+    margin:0 ;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.wrapper{
+     border:1px solid coral;
+     width: 100%;
+}
+
+.menu{
+    width: 100%;
+    border:1px solid coral ;
+    display: flex;
+}
+
+.menu__logo{
+    width:25% ;
+    
+    
+}
+
+.menu__buscador{
+    width: 50%;
+}
+
+.menu__opciones{
+    width: 25%;
+  
+}
+
+.categorias {
+    width: 82px;
+    height: 157px;
+    border:1px solid coral ;
+    margin-top: 10px;
+    margin-right: auto;  
+}
+
+.contenido{
+    width: 367px;
+    height:157px;
+    border: 1px solid coral; 
+  
+}
