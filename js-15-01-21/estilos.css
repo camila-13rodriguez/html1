@@ -1,0 +1,36 @@
+* {
+    outline-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+label {
+    width: 150px;
+}
+
+form {
+    margin-left: 30px;
+    margin-top: 30px;
+}
+
+form > div {
+    margin-bottom: 20px;
+}
+
+input {
+    border: 1px solid red;  
+}
+
+input:focus {
+        border: 2px solid blue; 
+        border-radius: 8px;
+ }
+
+
+span {
+    border: 2px solid indianred; 
+} 
+
+span:hover {
+    border: 2px solid green;
+}  
